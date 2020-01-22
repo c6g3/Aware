@@ -20,7 +20,7 @@ Ce logiciel a pour but d'accueillir au mieux l'utilisateur qui se réveille le m
 
 ## Technologies utilisées :
 
-- Electron
+- React
 
 ## Auteurs
 
