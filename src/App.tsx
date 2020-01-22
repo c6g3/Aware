@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { Weather } from "./components/Weather/Weather";
 
 const App: React.FC = () => {
   return (
@@ -19,8 +21,11 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <div>
+        <Weather />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
